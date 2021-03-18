@@ -1,0 +1,156 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+html{
+  font-size: 48px;
+}
+.main{
+  background-color: black;
+  width: 1349px;
+  height: 660px;
+
+}
+.main-sec{
+  background-color: rgb(199, 230, 117);
+  width: 1349px;
+  height: 660px;
+}
+.main-thrd{
+  background-color: rgb(228, 138, 220);
+  width: 1349px;
+  height: 660px;
+}
+.main-frth{
+  background-color: whitesmoke;
+  width: 1349px;
+  height: 660px;
+}
+.main > h3{
+  color:  rgb(199, 230, 117);
+  font-size: 1rem;
+  
+  /* top:30px;
+  left: 100px; */
+  /* padding-top: 20px; */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+.main > h1{
+  text-align: center;
+  position: relative;
+  top: 200px;
+  color: grey;
+}
+.main-sec>h3{
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-sec>li{
+  list-style: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-thrd > h3{
+  font-size: 1.3rem;
+}
+.main-thrd{
+  text-align: right;
+  color: whitesmoke;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-thrd>h4{
+  font-size: .7rem;
+  font-style: italic;
+  text-align: left;
+}
+.main-thrd>h6{
+  font-size: .7rem;
+  font-style: italic;
+  text-align: left;
+}
+.main-thrd>h5{
+  font-size: 1.1rem;
+  
+}
+.main-thrd>h2{
+  font-size: .9rem;
+}
+.main-frth{
+  color:  rgb(228, 138, 220);
+}
+.main-frth>h1{
+  font-size: 2rem;
+}
+@media(max-width:660px){
+  /* html{
+      font-size: 3rem;
+  } */
+  .main > h3{
+     text-align: initial;
+
+  }
+  .main,
+  .main-sec,
+  .main-thrd,
+  .main-frth{
+      background-color: black;
+      width: 100%;
+      height: 660px;
+  }
+  .main > h1{
+      text-align: center;
+     position: relative;
+     top: 0;
+  }
+.main-sec{
+    background-color: rgb(199, 230, 117);
+}
+.main-thrd{
+    background-color: rgb(228, 138, 220);
+}
+.main-frth{
+    background-color: whitesmoke;
+    
+}
+}
